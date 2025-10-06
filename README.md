@@ -109,10 +109,10 @@ The computed Haversine distances align closely with the dataset’s reported tri
 
 | Field | Example Distinct Values |
 |--------|------------------------|
-| rate_code | '0', '1', '2', '210', '3', '4', '5', '6', '65', '7'|(10)
-| store_and_fwd_flag |'N', 'Y' |(2)
-| vendor_id | 'CMT', 'VTS'|(2)
-| passenger_count | '0', '1', '2', '3', '4', '5', '6'|(7)
+| rate_code | 0, 1, 2, 210, 3, 4, 5, 6, 65, 7|
+| store_and_fwd_flag | N, Y |
+| vendor_id | CMT, VTS|
+| passenger_count | 0, 1, 2, 3, 4, 5, 6|
 
 ---
 
