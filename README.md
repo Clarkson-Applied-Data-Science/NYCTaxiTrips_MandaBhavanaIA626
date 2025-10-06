@@ -165,12 +165,16 @@ Minor variations occur due to random sampling.
 
 ##  12. Repository Structure
 
-📁 taxi-assignment/  
+📁 NYCTaxiTrips_MandaBhavanaIA626  
 ├── trip_data_5.csv  
 ├── trip_data_5_reduced.csv  
 ├── taxianalysis.ipynb  
 ├── README.md  
-└── .gitignore  
+├── .gitignore  
+├── 5th.png  
+├── 6th.png  
+├── 9th.png  
+└── 11th.png   
 
 
 ---
