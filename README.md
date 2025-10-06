@@ -45,14 +45,6 @@ The dataset represents **New York City taxi trips for May 2013**, covering a ful
 
 ---
 
-## 3️ Give some sample data for each field
-
-| medallion | hack_license | vendor_id | rate_code | pickup_datetime | dropoff_datetime | passenger_count | trip_time_in_secs | trip_distance | pickup_longitude | pickup_latitude | dropoff_longitude | dropoff_latitude |
-|------------|---------------|------------|-------------|-----------------|------------------|------------------|------------------|----------------|------------------|----------------|------------------|
-| D7D598CD99978BD012A87A76A7C891B7 | 82F90D5EFE90BCF5EAFADC3DDE985090 | CMT | 1 | 2013-05-01 00:01:00 | 2013-05-01 00:09:00 | 1 | 480 | 1.10 | -73.978 | 40.761 | -73.990 | 40.750 |
-
----
-
 ## 4️ What MySQL data types / len would you need to store each of the fields?
 
 | Field Name | MySQL Data Type |
