@@ -18,7 +18,7 @@ The project demonstrates both **technical precision and analytical reasoning** r
 |--------|-------|
 | **Start Date** | 2013-05-01 00:00:00 |
 | **End Date** | 2013-05-31 23:59:59 |
-| **Total Rows** | ≈ 1.5 million (depending on subset) |
+| **Total Rows** | ≈ 15285049 |
 
 The dataset represents **New York City taxi trips for May 2013**, covering a full month of pickup and drop-off records.
 
@@ -37,7 +37,7 @@ The dataset represents **New York City taxi trips for May 2013**, covering a ful
 | dropoff_datetime | Date & time when the passenger was dropped off |
 | passenger_count | Number of passengers in the cab |
 | trip_time_in_secs | Trip duration in seconds |
-| trip_distance | Distance traveled (miles) |
+| trip_distance | Distance traveled |
 | pickup_longitude | Longitude of pickup |
 | pickup_latitude | Latitude of pickup |
 | dropoff_longitude | Longitude of drop-off |
@@ -87,7 +87,7 @@ Although the scatter plot is not drawn over a geographic basemap, the coordinate
 ## 6️ What is the average overall computed trip distance? (Use Haversine Distance)
 The Haversine formula was applied to calculate trip distances based on each record’s pickup and drop-off latitude and longitude coordinates. This formula accounts for the Earth’s curvature, providing an accurate estimate of distance traveled.
 
-Average Trip Distance: ≈ 2.7 miles
+Average Trip Distance: ≈ 3.44 km
 Analysis
 
 The majority of NYC taxi trips are short-distance rides, typically under 5 miles, concentrated around dense urban areas such as Manhattan.
@@ -109,10 +109,10 @@ The computed Haversine distances align closely with the dataset’s reported tri
 
 | Field | Example Distinct Values |
 |--------|------------------------|
-| rate_code | 1 – 6 |
-| store_and_fwd_flag | Y / N |
-| vendor_id | CMT, VTS |
-| passenger_count | 1 – 6 |
+| rate_code | '0', '1', '2', '210', '3', '4', '5', '6', '65', '7'|(10)
+| store_and_fwd_flag |'N', 'Y' |(2)
+| vendor_id | 'CMT', 'VTS'|(2)
+| passenger_count | '0', '1', '2', '3', '4', '5', '6'|(7)
 
 ---
 
@@ -158,7 +158,6 @@ Minor variations occur due to random sampling.
 - **Language:** Python 3  
 - **Libraries:** `csv`, `datetime`, `math`, `matplotlib.pyplot`, `random`  
 - **Environment:** Jupyter / VS Code  
-- **No external dependencies required**
 
 ---
 
